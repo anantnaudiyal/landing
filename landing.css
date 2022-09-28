@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#part1{
+    height: 30rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("./part1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+#a1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1rem;
+   
+}
+
+#a1 img{
+    height: 150px;
+    align-items: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+}
+#a2{
+    width: 100%;
+font-size: xx-large;
+padding: 2rem;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+#a2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: solid;
+    font-size: 6rem;
+}
+#a2 button{
+    background-color: rgb(237, 126, 228);
+    height: 3.5rem;
+    width: 15rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+#a2 img{
+    height: 0.9rem;
+}
+#a2 p{
+    color: white;
+    font-size: 1rem;
+}
+#midxyz{
+    background-image: url(./midbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10rem;
+   padding-right: 10rem;
+   padding-bottom: 3rem;
+}
+
+#midxyz img{
+    width: 635px;
+    height: 635px;
+}
+
+
+.part234{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  
+    
+}
+.part234 button{
+    background-color: rgb(94, 202, 232);
+    height: 3.5rem;
+    width: 15rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+    justify-content: center;
+}
+ 
+
+.narupart{
+    padding: 1rem;
+}
+#naruto{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+#naruto img{
+height: 11rem;
+width: 19rem;
+border-radius: 1rem;
+margin-bottom: 1rem;
+}
+#part5{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+   
+}
+.xyz{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#part6{
+    padding-top: rem;
+    height:14rem ;
+    width: 100%;
+    background-image: url(./img6.jpg);
+    display: flex;
+    
+    justify-content: center;
+    
+}
+#part6 h1{
+    font-size: xx-large;
+    padding: 2rem;
+    display: flex;
+}
+#part6 div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+
+
+/* Media Query 800px */
+@media screen and (max-width:800px) {
+    #part1{
+        text-align:center;
+        width: 100%;
+    background-image: url("./part1.jpg");
+        background-size: cover;
+       height:530px;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:800px) {
+    #a1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 1rem;
+        padding-left: 1rem;
+       
+    }
+}
+@media screen and (max-width:800px) {
+#a1 img{
+    height: 150px;
+    align-items: left;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    
+   }
+}
+@media screen and (max-width:800px) {
+   #a2 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: solid;
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width:800px) {
+#midpart{
+padding:0px;
+  padding-left:0px;
+  padding-right:0px;
+  justify-content:center;
+}
+}
+
+   @media screen and (max-width:800px) {
+.part234{
+    display: flex;
+    flex-direction:column;
+    padding-top: 0rem;
+   text-align:center;
+    align-items: center;
+  padding-top:2rem;
+   }
+}
+@media screen and (max-width:800px) {
+#midxyz img{
+    width: 255px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:800px){
+#midxyz{
+    background-image: url(./midbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0rem;
+   padding-right: 0rem;
+   padding-bottom: 3rem;
+}
+
+}
+
+
+
+@media screen and (max-width:800px) {
+#part5{
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: center;
+    background-color: aquamarine;
+    height:85rem;
+    width:auto;
+    
+   
+}
+}
+@media screen and (max-width:800px){
+  #naruto {
+    
+    display:flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:800px){
+  #naruto p{
+    width:400px
+  }}
+@media screen and (max-width:800px){
+  #naruto img{
+    width:400px;
+    height:250px;
+  }}
+
+
+  /* Media Query 600px */
+     
+  @media screen and (max-width:600px){
+    #a1 img{
+   width:6rem;
+      height:6rem;
+ }
+}
+@media screen and (max-width:600px){
+    #a1 select{
+      display:flex;
+      font-size:0.6rem;
+   width:3.5rem;
+      height:0.9rem;
+ }
+}
+
+ @media screen and (max-width:600px){
+    #a2 h1{
+   
+   font-size: 3.5rem;
+ }
+}
+ @media screen and (max-width:600px){
+    #a2 h5{
+   color:white;
+   font-size: 0.99rem;
+ }
+}
+
+@media screen and (max-width:600px){
+  #part1{
+    height:27rem;
+  }}
+@media screen and (max-width:600px){
+  #part1 button{
+    height:2rem;
+    width:9rem;
+    font-size:0.9rem;
+    margin-top:13px;
+    margin-bottom:13px;
+  }}
